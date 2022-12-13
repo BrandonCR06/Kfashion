@@ -1,3 +1,42 @@
 .App {
 	text-align: center;
 }
+
+#center {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+body{ min-height: 100vh; margin:0; ; background:rgb(250,241,204); }
+
+header{ min-height:50px; background:lightcyan; }
+footer{ min-height:50px; }
+
+/* The article fills all the space between header & footer */
+body{ display:flex; flex-direction:column; }
+article{ flex:1; }
+
+.flexbox {
+	align-items: center;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	width: 200px;
+  
+	background: #ffff99;
+	color: #333;
+  }
+
+  .container {
+	display: grid;
+	place-content: center;
+	margin-top: 200px;
+  }
+
+
+  .color-nav {
+	background-color: rgb(196,173,160);
+  }
